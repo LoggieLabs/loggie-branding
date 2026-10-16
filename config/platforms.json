@@ -8,14 +8,27 @@
         "height": 400,
         "format": "png",
         "source": "official",
-        "notes": "Square source; design for circular crop. Keep the full mark inside a generous central safe area."
+        "notes": "Square source; design for circular crop. Keep the full mark inside a generous central safe area.",
+        "composition": {
+          "kind": "tile"
+        }
       },
       "header": {
         "width": 1500,
         "height": 500,
         "format": "png",
         "source": "official",
-        "notes": "Responsive crop varies by device; keep critical logo/text away from edges and profile-photo overlap."
+        "notes": "Responsive crop varies by device; keep critical logo/text away from edges and profile-photo overlap.",
+        "composition": {
+          "kind": "cover",
+          "tagline": true,
+          "safeArea": {
+            "left": 120,
+            "top": 90,
+            "right": 120,
+            "bottom": 110
+          }
+        }
       }
     },
     "linkedin": {
@@ -24,21 +37,44 @@
         "height": 396,
         "format": "png",
         "source": "official",
-        "notes": "Keep important content centered/right enough to survive profile-photo overlap and responsive cropping."
+        "notes": "Keep important content centered/right enough to survive profile-photo overlap and responsive cropping.",
+        "composition": {
+          "kind": "cover",
+          "tagline": true,
+          "safeArea": {
+            "left": 480,
+            "top": 48,
+            "right": 100,
+            "bottom": 70
+          }
+        }
       },
       "pageLogo": {
         "width": 400,
         "height": 400,
         "format": "png",
         "source": "official",
-        "notes": "Square logo source. Preserve breathing room."
+        "notes": "Square logo source. Preserve breathing room.",
+        "composition": {
+          "kind": "tile"
+        }
       },
       "pageCover": {
         "width": 1512,
         "height": 256,
         "format": "png",
         "source": "official",
-        "notes": "Use a safe central composition; page UI can crop differently across surfaces."
+        "notes": "Use a safe central composition; page UI can crop differently across surfaces.",
+        "composition": {
+          "kind": "cover",
+          "tagline": false,
+          "safeArea": {
+            "left": 400,
+            "top": 32,
+            "right": 80,
+            "bottom": 44
+          }
+        }
       }
     },
     "facebook": {
@@ -47,14 +83,27 @@
         "height": 320,
         "format": "png",
         "source": "delivery-target",
-        "notes": "Square source designed for circular display. Export larger internal masters if needed, but keep this delivery target available."
+        "notes": "Square source designed for circular display. Export larger internal masters if needed, but keep this delivery target available.",
+        "composition": {
+          "kind": "tile"
+        }
       },
       "cover": {
         "width": 1640,
         "height": 624,
         "format": "png",
         "source": "delivery-target",
-        "notes": "2× working export for a common 820×312 display ratio. Keep critical content centered for desktop/mobile crop differences."
+        "notes": "2\u00d7 working export for a common 820\u00d7312 display ratio. Keep critical content centered for desktop/mobile crop differences.",
+        "composition": {
+          "kind": "cover",
+          "tagline": true,
+          "safeArea": {
+            "left": 220,
+            "top": 60,
+            "right": 220,
+            "bottom": 80
+          }
+        }
       }
     },
     "github": {
@@ -63,14 +112,27 @@
         "height": 500,
         "format": "png",
         "source": "delivery-target",
-        "notes": "Working master for organization/avatar use. GitHub renders at multiple sizes, so keep the mark bold and centered."
+        "notes": "Working master for organization/avatar use. GitHub renders at multiple sizes, so keep the mark bold and centered.",
+        "composition": {
+          "kind": "tile"
+        }
       },
       "socialPreview": {
         "width": 1280,
         "height": 640,
         "format": "png",
         "source": "delivery-target",
-        "notes": "Repository/social preview asset. Keep primary identity and message in the center-safe area."
+        "notes": "Repository/social preview asset. Keep primary identity and message in the center-safe area.",
+        "composition": {
+          "kind": "cover",
+          "tagline": true,
+          "safeArea": {
+            "left": 100,
+            "top": 70,
+            "right": 100,
+            "bottom": 90
+          }
+        }
       }
     },
     "web": {
@@ -79,43 +141,62 @@
         "height": 630,
         "format": "png",
         "source": "standard",
-        "notes": "Default Open Graph and social-sharing card."
+        "notes": "Default Open Graph and social-sharing card.",
+        "composition": {
+          "kind": "share-card"
+        }
       },
       "favicon16": {
         "width": 16,
         "height": 16,
         "format": "png",
         "source": "brand-system",
-        "notes": "Use the dedicated pixel-drawn small glyph, not a scaled master mark."
+        "notes": "Use the dedicated pixel-drawn small glyph, not a scaled master mark.",
+        "composition": {
+          "kind": "glyph"
+        }
       },
       "favicon32": {
         "width": 32,
         "height": 32,
         "format": "png",
         "source": "brand-system",
-        "notes": "Master mark in tile."
+        "notes": "Master mark in tile.",
+        "composition": {
+          "kind": "tile-rounded"
+        }
       },
       "favicon48": {
         "width": 48,
         "height": 48,
         "format": "png",
         "source": "brand-system",
-        "notes": "Master mark in tile."
+        "notes": "Master mark in tile.",
+        "composition": {
+          "kind": "tile-rounded"
+        }
       },
       "appleTouchIcon": {
         "width": 180,
         "height": 180,
         "format": "png",
         "source": "brand-system",
-        "notes": "Opaque full-bleed square; iOS applies its own mask."
+        "notes": "Opaque full-bleed square; iOS applies its own mask.",
+        "composition": {
+          "kind": "tile"
+        }
       },
       "pwa512": {
         "width": 512,
         "height": 512,
         "format": "png",
         "source": "brand-system",
-        "notes": "Maskable-safe composition."
+        "notes": "Maskable-safe composition.",
+        "composition": {
+          "kind": "tile"
+        }
       }
     }
-  }
+  },
+  "tagline": "Keep your piece of history."
 }

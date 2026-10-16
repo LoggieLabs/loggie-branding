@@ -1,0 +1,160 @@
+{
+  "generated": "2026-10-16",
+  "tagline": "Keep your piece of history.",
+  "assets": [
+    {
+      "path": "x/profile-400x400.png",
+      "width": 400,
+      "height": 400,
+      "purpose": "x profile",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "x/header-1500x500.png",
+      "width": 1500,
+      "height": 500,
+      "purpose": "x header",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "linkedin/personalCover-1584x396.png",
+      "width": 1584,
+      "height": 396,
+      "purpose": "linkedin personalCover",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "linkedin/pageLogo-400x400.png",
+      "width": 400,
+      "height": 400,
+      "purpose": "linkedin pageLogo",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "linkedin/pageCover-1512x256.png",
+      "width": 1512,
+      "height": 256,
+      "purpose": "linkedin pageCover",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "facebook/profile-320x320.png",
+      "width": 320,
+      "height": 320,
+      "purpose": "facebook profile",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "facebook/cover-1640x624.png",
+      "width": 1640,
+      "height": 624,
+      "purpose": "facebook cover",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "github/avatar-500x500.png",
+      "width": 500,
+      "height": 500,
+      "purpose": "github avatar",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "github/socialPreview-1280x640.png",
+      "width": 1280,
+      "height": 640,
+      "purpose": "github socialPreview",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "web/og-1200x630.png",
+      "width": 1200,
+      "height": 630,
+      "purpose": "web og",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "web/favicon16-16x16.png",
+      "width": 16,
+      "height": 16,
+      "purpose": "web favicon16",
+      "source": "brand/logo/loggie-glyph-16.svg"
+    },
+    {
+      "path": "web/favicon32-32x32.png",
+      "width": 32,
+      "height": 32,
+      "purpose": "web favicon32",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "web/favicon48-48x48.png",
+      "width": 48,
+      "height": 48,
+      "purpose": "web favicon48",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "web/appleTouchIcon-180x180.png",
+      "width": 180,
+      "height": 180,
+      "purpose": "web appleTouchIcon",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "web/pwa512-512x512.png",
+      "width": 512,
+      "height": 512,
+      "purpose": "web pwa512",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "press/loggie-mark-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "purpose": "press transparent mark, light grounds",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "press/loggie-mark-dark-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "purpose": "press transparent mark, dark grounds",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "press/loggie-lockup-2400.png",
+      "width": 2400,
+      "height": 615,
+      "purpose": "press lockup, light grounds",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "press/loggie-lockup-dark-2400.png",
+      "width": 2400,
+      "height": 615,
+      "purpose": "press lockup, dark grounds",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "press/loggie-icon-1024.png",
+      "width": 1024,
+      "height": 1024,
+      "purpose": "press square icon tile",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "press/loggie-lockup.svg",
+      "width": 387,
+      "height": 99,
+      "purpose": "press lockup vector, light grounds",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "press/loggie-lockup-dark.svg",
+      "width": 387,
+      "height": 99,
+      "purpose": "press lockup vector, dark grounds",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    }
+  ]
+}
