@@ -9,7 +9,9 @@
         "format": "png",
         "source": "official",
         "notes": "Square source; design for circular crop. Keep the full mark inside a generous central safe area.",
-        "composition": { "kind": "tile" }
+        "composition": {
+          "kind": "tile"
+        }
       },
       "header": {
         "width": 1500,
@@ -20,7 +22,12 @@
         "composition": {
           "kind": "cover",
           "tagline": true,
-          "safeArea": { "left": 120, "top": 90, "right": 120, "bottom": 110 }
+          "safeArea": {
+            "left": 120,
+            "top": 90,
+            "right": 120,
+            "bottom": 110
+          }
         }
       }
     },
@@ -34,7 +41,12 @@
         "composition": {
           "kind": "cover",
           "tagline": true,
-          "safeArea": { "left": 480, "top": 48, "right": 100, "bottom": 70 }
+          "safeArea": {
+            "left": 480,
+            "top": 48,
+            "right": 100,
+            "bottom": 70
+          }
         }
       },
       "pageLogo": {
@@ -43,7 +55,9 @@
         "format": "png",
         "source": "official",
         "notes": "Square logo source. Preserve breathing room.",
-        "composition": { "kind": "tile" }
+        "composition": {
+          "kind": "tile"
+        }
       },
       "pageCover": {
         "width": 1512,
@@ -54,7 +68,12 @@
         "composition": {
           "kind": "cover",
           "tagline": false,
-          "safeArea": { "left": 400, "top": 32, "right": 80, "bottom": 44 }
+          "safeArea": {
+            "left": 400,
+            "top": 32,
+            "right": 80,
+            "bottom": 44
+          }
         }
       }
     },
@@ -65,18 +84,25 @@
         "format": "png",
         "source": "delivery-target",
         "notes": "Square source designed for circular display. Export larger internal masters if needed, but keep this delivery target available.",
-        "composition": { "kind": "tile" }
+        "composition": {
+          "kind": "tile"
+        }
       },
       "cover": {
         "width": 1640,
         "height": 624,
         "format": "png",
         "source": "delivery-target",
-        "notes": "2× working export for a common 820×312 display ratio. Keep critical content centered for desktop/mobile crop differences.",
+        "notes": "2\u00d7 working export for a common 820\u00d7312 display ratio. Keep critical content centered for desktop/mobile crop differences.",
         "composition": {
           "kind": "cover",
           "tagline": true,
-          "safeArea": { "left": 220, "top": 60, "right": 220, "bottom": 80 }
+          "safeArea": {
+            "left": 220,
+            "top": 60,
+            "right": 220,
+            "bottom": 80
+          }
         }
       }
     },
@@ -87,7 +113,9 @@
         "format": "png",
         "source": "delivery-target",
         "notes": "Working master for organization/avatar use. GitHub renders at multiple sizes, so keep the mark bold and centered.",
-        "composition": { "kind": "tile" }
+        "composition": {
+          "kind": "tile"
+        }
       },
       "socialPreview": {
         "width": 1280,
@@ -98,7 +126,12 @@
         "composition": {
           "kind": "cover",
           "tagline": true,
-          "safeArea": { "left": 100, "top": 70, "right": 100, "bottom": 90 }
+          "safeArea": {
+            "left": 100,
+            "top": 70,
+            "right": 100,
+            "bottom": 90
+          }
         }
       }
     },
@@ -108,19 +141,26 @@
         "height": 800,
         "format": "png",
         "source": "delivery-target",
-        "notes": "Square high-resolution channel profile source designed for YouTube's circular crop; YouTube currently renders the profile image at 98×98 px.",
-        "composition": { "kind": "tile" }
+        "notes": "Square high-resolution channel profile source designed for YouTube's circular crop; YouTube currently renders the profile image at 98\u00d798 px.",
+        "composition": {
+          "kind": "tile"
+        }
       },
       "banner": {
         "width": 2560,
         "height": 1440,
         "format": "png",
         "source": "official",
-        "notes": "YouTube recommended channel banner size. Critical logo and text stay inside the centered cross-device safe area; the safe area here is scaled from YouTube's official 1235×338 safe area at its 2048×1152 minimum upload size.",
+        "notes": "YouTube recommended channel banner size. Critical logo and text stay inside the centered cross-device safe area; the safe area here is scaled from YouTube's official 1235\u00d7338 safe area at its 2048\u00d71152 minimum upload size.",
         "composition": {
           "kind": "cover",
           "tagline": true,
-          "safeArea": { "left": 508, "top": 508, "right": 508, "bottom": 509 }
+          "safeArea": {
+            "left": 508,
+            "top": 508,
+            "right": 508,
+            "bottom": 509
+          }
         }
       },
       "watermark": {
@@ -128,8 +168,10 @@
         "height": 150,
         "format": "png",
         "source": "official-minimum",
-        "notes": "YouTube video watermark minimum size is 150×150 px and must remain under 1 MB. Use the Ink tile for reliable contrast over arbitrary video frames.",
-        "composition": { "kind": "tile" }
+        "notes": "YouTube video watermark minimum size is 150\u00d7150 px and must remain under 1 MB. Use the Ink tile for reliable contrast over arbitrary video frames.",
+        "composition": {
+          "kind": "tile"
+        }
       }
     },
     "gmail": {
@@ -139,15 +181,19 @@
         "format": "png",
         "source": "delivery-target",
         "notes": "Google does not publish a required Gmail profile-photo pixel size. This is a high-resolution square working master designed for the circular Google Account crop; the Gmail profile picture is the Google Account profile picture and can appear across Google services.",
-        "composition": { "kind": "tile" }
+        "composition": {
+          "kind": "tile"
+        }
       },
       "signatureLogo": {
         "width": 400,
         "height": 100,
         "format": "png",
         "source": "official-recommended-range",
-        "notes": "Transparent light-ground lockup for Gmail signatures. Google recommends signature images 70–100 px high by 300–400 px wide; 400×100 uses the top end of that recommended range.",
-        "composition": { "kind": "transparent-lockup" }
+        "notes": "Transparent light-ground lockup for Gmail signatures. Google recommends signature images 70\u2013100 px high by 300\u2013400 px wide; 400\u00d7100 uses the top end of that recommended range.",
+        "composition": {
+          "kind": "transparent-lockup"
+        }
       }
     },
     "web": {
@@ -157,7 +203,9 @@
         "format": "png",
         "source": "standard",
         "notes": "Default Open Graph and social-sharing card.",
-        "composition": { "kind": "share-card" }
+        "composition": {
+          "kind": "share-card"
+        }
       },
       "favicon16": {
         "width": 16,
@@ -165,7 +213,9 @@
         "format": "png",
         "source": "brand-system",
         "notes": "Use the dedicated pixel-drawn small glyph, not a scaled master mark.",
-        "composition": { "kind": "glyph" }
+        "composition": {
+          "kind": "glyph"
+        }
       },
       "favicon32": {
         "width": 32,
@@ -173,7 +223,9 @@
         "format": "png",
         "source": "brand-system",
         "notes": "Master mark in tile.",
-        "composition": { "kind": "tile-rounded" }
+        "composition": {
+          "kind": "tile-rounded"
+        }
       },
       "favicon48": {
         "width": 48,
@@ -181,7 +233,9 @@
         "format": "png",
         "source": "brand-system",
         "notes": "Master mark in tile.",
-        "composition": { "kind": "tile-rounded" }
+        "composition": {
+          "kind": "tile-rounded"
+        }
       },
       "appleTouchIcon": {
         "width": 180,
@@ -189,7 +243,9 @@
         "format": "png",
         "source": "brand-system",
         "notes": "Opaque full-bleed square; iOS applies its own mask.",
-        "composition": { "kind": "tile" }
+        "composition": {
+          "kind": "tile"
+        }
       },
       "pwa512": {
         "width": 512,
@@ -197,7 +253,35 @@
         "format": "png",
         "source": "brand-system",
         "notes": "Maskable-safe composition.",
-        "composition": { "kind": "tile" }
+        "composition": {
+          "kind": "tile"
+        }
+      }
+    },
+    "wallpaper": {
+      "iphone": {
+        "width": 1320,
+        "height": 2868,
+        "format": "png",
+        "source": "delivery-target",
+        "notes": "iPhone 16 Pro Max native resolution; a high-res portrait master that scales down cleanly to other recent iPhones. Minimal by design: the clock sits top, the dock bottom, so the centered mark stays clear of both.",
+        "composition": {
+          "kind": "wallpaper",
+          "content": "mark",
+          "scale": 0.14
+        }
+      },
+      "desktop4k": {
+        "width": 3840,
+        "height": 2160,
+        "format": "png",
+        "source": "delivery-target",
+        "notes": "4K desktop master; scales down well to 1440p and 1080p. Minimal: centered lockup with generous empty space so desktop icons never sit on anything important.",
+        "composition": {
+          "kind": "wallpaper",
+          "content": "lockup",
+          "scale": 0.12
+        }
       }
     }
   },

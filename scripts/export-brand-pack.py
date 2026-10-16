@@ -13,6 +13,9 @@ The composition vocabulary (what each target's "composition.kind" means):
                 optionally the tagline beneath it
   transparent-lockup
                 light-ground lockup fitted to an exact transparent canvas
+  wallpaper     Ink ground, the dark mark or lockup centered small
+                (composition.content, composition.scale = element height as a
+                fraction of canvas height) with generous empty space, no copy
   share-card    the full OG card (headline + status line), from export-logo
 
 Composition and recolouring by rule only — the drawing logic lives in
@@ -75,6 +78,16 @@ def cover(w: int, h: int, comp: dict, lock_dark: str, tagline: str) -> Image.Ima
             (sx + (sw - tag_w) // 2, ly + lh + gap), tagline,
             font=tag_font, fill="#9CA3AF",
         )
+    return img.convert("RGB")
+
+
+def wallpaper(w: int, h: int, comp: dict, mark_dark: str, lock_dark: str) -> Image.Image:
+    """Ink ground, one centered element, nothing else: icons and the clock
+    land on empty space on every device this scales down to."""
+    img = Image.new("RGBA", (w, h), lib.INK)
+    svg = lock_dark if comp.get("content") == "lockup" else mark_dark
+    ew, eh = lib.size_for_height(svg, round(h * comp.get("scale", 0.14)))
+    img.alpha_composite(lib.render(svg, ew, eh), ((w - ew) // 2, (h - eh) // 2))
     return img.convert("RGB")
 
 
@@ -146,6 +159,9 @@ def main() -> None:
                 emit(rel, cover(w, h, t["composition"], lock_dark, tagline), purpose, LOCKUP_SOURCES)
             elif kind == "transparent-lockup":
                 emit(rel, transparent_lockup(w, h, lock), purpose, LOCKUP_SOURCES)
+            elif kind == "wallpaper":
+                src = LOCKUP_SOURCES if t["composition"].get("content") == "lockup" else MASTER_MARK
+                emit(rel, wallpaper(w, h, t["composition"], mark_dark, lock_dark), purpose, src)
             elif kind == "share-card":
                 emit(rel, lib.share_card(mark_dark, wordmark_dark), purpose, LOCKUP_SOURCES)
             else:

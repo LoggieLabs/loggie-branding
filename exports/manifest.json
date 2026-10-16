@@ -143,6 +143,20 @@
       "source": "brand/logo/loggie-mark.svg"
     },
     {
+      "path": "wallpaper/iphone-1320x2868.png",
+      "width": 1320,
+      "height": 2868,
+      "purpose": "wallpaper iphone",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "wallpaper/desktop4k-3840x2160.png",
+      "width": 3840,
+      "height": 2160,
+      "purpose": "wallpaper desktop4k",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
       "path": "press/loggie-mark-1024.png",
       "width": 1024,
       "height": 1024,

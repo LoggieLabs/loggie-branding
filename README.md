@@ -39,7 +39,7 @@ config/
   copy.json              # canonical messaging + platform-specific text variants
 
 exports/                 # generated platform deliverables (committed)
-  x/  facebook/  linkedin/  github/  youtube/  gmail/  web/  press/
+  x/  facebook/  linkedin/  github/  youtube/  gmail/  web/  wallpaper/  press/
   copy/                   # generated bios, descriptions, links, signature copy
   manifest.json          # every generated visual asset: path, size, source, purpose
 
