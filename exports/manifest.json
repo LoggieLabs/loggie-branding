@@ -66,6 +66,27 @@
       "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
     },
     {
+      "path": "youtube/profile-800x800.png",
+      "width": 800,
+      "height": 800,
+      "purpose": "youtube profile",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "youtube/banner-2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "purpose": "youtube banner",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
+      "path": "youtube/watermark-150x150.png",
+      "width": 150,
+      "height": 150,
+      "purpose": "youtube watermark",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
       "path": "web/og-1200x630.png",
       "width": 1200,
       "height": 630,
