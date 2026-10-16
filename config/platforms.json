@@ -93,7 +93,7 @@
         "height": 624,
         "format": "png",
         "source": "delivery-target",
-        "notes": "2\u00d7 working export for a common 820\u00d7312 display ratio. Keep critical content centered for desktop/mobile crop differences.",
+        "notes": "2× working export for a common 820×312 display ratio. Keep critical content centered for desktop/mobile crop differences.",
         "composition": {
           "kind": "cover",
           "tagline": true,
@@ -132,6 +132,45 @@
             "right": 100,
             "bottom": 90
           }
+        }
+      }
+    },
+    "youtube": {
+      "profile": {
+        "width": 800,
+        "height": 800,
+        "format": "png",
+        "source": "delivery-target",
+        "notes": "Square high-resolution channel profile source designed for YouTube's circular crop; YouTube currently renders the profile image at 98×98 px.",
+        "composition": {
+          "kind": "tile"
+        }
+      },
+      "banner": {
+        "width": 2560,
+        "height": 1440,
+        "format": "png",
+        "source": "official",
+        "notes": "YouTube recommended channel banner size. Critical logo and text stay inside the centered cross-device safe area; the safe area here is scaled from YouTube's official 1235×338 safe area at its 2048×1152 minimum upload size.",
+        "composition": {
+          "kind": "cover",
+          "tagline": true,
+          "safeArea": {
+            "left": 508,
+            "top": 508,
+            "right": 508,
+            "bottom": 509
+          }
+        }
+      },
+      "watermark": {
+        "width": 150,
+        "height": 150,
+        "format": "png",
+        "source": "official-minimum",
+        "notes": "YouTube video watermark minimum size is 150×150 px and must remain under 1 MB. Use the Ink tile for reliable contrast over arbitrary video frames.",
+        "composition": {
+          "kind": "tile"
         }
       }
     },
