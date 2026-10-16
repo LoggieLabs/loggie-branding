@@ -11,6 +11,8 @@ The composition vocabulary (what each target's "composition.kind" means):
   glyph         the pixel-drawn 16px glyph, rendered 1:1 on its grid
   cover         Ink ground, dark lockup centered in the target's safeArea,
                 optionally the tagline beneath it
+  transparent-lockup
+                light-ground lockup fitted to an exact transparent canvas
   share-card    the full OG card (headline + status line), from export-logo
 
 Composition and recolouring by rule only — the drawing logic lives in
@@ -53,7 +55,7 @@ def cover(w: int, h: int, comp: dict, lock_dark: str, tagline: str) -> Image.Ima
     with_tag = comp.get("tagline", False)
     lock_h = round(sh * (0.46 if with_tag else 0.60))
     lw, lh = lib.size_for_height(lock_dark, lock_h)
-    if lw > sw * 0.9:  # narrow safe areas: size by width instead
+    if lw > sw * 0.9:
         lw, lh = lib.size_for_width(lock_dark, round(sw * 0.9))
 
     tag_font = tag_w = tag_h = 0
@@ -74,6 +76,18 @@ def cover(w: int, h: int, comp: dict, lock_dark: str, tagline: str) -> Image.Ima
             font=tag_font, fill="#9CA3AF",
         )
     return img.convert("RGB")
+
+
+def transparent_lockup(w: int, h: int, lock: str) -> Image.Image:
+    """Fit the light-ground lockup inside an exact transparent canvas."""
+    img = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    lw, lh = lib.size_for_width(lock, round(w * 0.92))
+    if lh > h * 0.82:
+        lw, lh = lib.size_for_height(lock, round(h * 0.82))
+    lx = (w - lw) // 2
+    ly = (h - lh) // 2
+    img.alpha_composite(lib.render(lock, lw, lh), (lx, ly))
+    return img
 
 
 def main() -> None:
@@ -130,6 +144,8 @@ def main() -> None:
                 emit(rel, lib.render(lib.master("loggie-glyph-16.svg"), w, h), purpose, MASTER_GLYPH)
             elif kind == "cover":
                 emit(rel, cover(w, h, t["composition"], lock_dark, tagline), purpose, LOCKUP_SOURCES)
+            elif kind == "transparent-lockup":
+                emit(rel, transparent_lockup(w, h, lock), purpose, LOCKUP_SOURCES)
             elif kind == "share-card":
                 emit(rel, lib.share_card(mark_dark, wordmark_dark), purpose, LOCKUP_SOURCES)
             else:
