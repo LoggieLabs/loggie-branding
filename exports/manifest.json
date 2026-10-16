@@ -87,6 +87,20 @@
       "source": "brand/logo/loggie-mark.svg"
     },
     {
+      "path": "gmail/profile-720x720.png",
+      "width": 720,
+      "height": 720,
+      "purpose": "gmail profile",
+      "source": "brand/logo/loggie-mark.svg"
+    },
+    {
+      "path": "gmail/signatureLogo-400x100.png",
+      "width": 400,
+      "height": 100,
+      "purpose": "gmail signatureLogo",
+      "source": "brand/logo/loggie-mark.svg + brand/logo/loggie-wordmark.svg"
+    },
+    {
       "path": "web/og-1200x630.png",
       "width": 1200,
       "height": 630,
