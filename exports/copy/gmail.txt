@@ -1,0 +1,11 @@
+[signatureName]
+Loggie
+
+[signatureTagline]
+Keep your piece of history.
+
+[signatureWebsite]
+https://loggielabs.com/
+
+[notes]
+Use alongside exports/gmail/signatureLogo-400x100.png. Do not add unsupported product, compliance, or security claims to signatures.

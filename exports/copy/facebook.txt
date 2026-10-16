@@ -1,0 +1,8 @@
+[bio]
+Keep your piece of history. Durable, verifiable digital continuity for people.
+
+[about]
+Loggie helps people keep the digital pieces of their lives together over time—messages, files, identity, and records—with cryptographic proof when it matters.
+
+[website]
+https://loggielabs.com/

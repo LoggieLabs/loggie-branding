@@ -1,0 +1,122 @@
+{
+  "generatedFrom": "config/copy.json",
+  "updated": "2026-10-16",
+  "canonical": {
+    "name": "Loggie",
+    "tagline": "Keep your piece of history.",
+    "website": "https://loggielabs.com/",
+    "shortDescription": "Keep your piece of history. Durable, verifiable digital continuity for people.",
+    "standardDescription": "Loggie helps people keep the digital pieces of their lives together over time—messages, files, identity, and records—with cryptographic proof when it matters.",
+    "longDescription": "Loggie is a place for the digital pieces of your life that deserve to last: messages, files, identity, and records. It is designed around continuity, ownership, and verifiability, using cryptography underneath so important history can remain independently provable over time. Keep your piece of history."
+  },
+  "platforms": {
+    "x": {
+      "bio": {
+        "text": "Keep your piece of history. Loggie keeps messages, files, identity, and records together over time—with cryptographic proof when it matters.",
+        "characters": 140,
+        "maxCharacters": 160,
+        "source": "official",
+        "notes": "X documents a 160-character maximum for profile bios."
+      },
+      "website": {
+        "text": "https://loggielabs.com/",
+        "characters": 23
+      }
+    },
+    "linkedin": {
+      "pageTagline": {
+        "text": "Keep your piece of history — durable, verifiable digital continuity for people.",
+        "characters": 79,
+        "maxCharacters": 120,
+        "source": "working-target",
+        "notes": "Keep the page tagline compact even if LinkedIn changes its UI limit."
+      },
+      "pageAbout": {
+        "text": "Loggie is a place for the digital pieces of your life that deserve to last: messages, files, identity, and records. It is designed around continuity, ownership, and verifiability, using cryptography underneath so important history can remain independently provable over time. Keep your piece of history.",
+        "characters": 303,
+        "source": "brand-canonical"
+      },
+      "website": {
+        "text": "https://loggielabs.com/",
+        "characters": 23
+      }
+    },
+    "facebook": {
+      "bio": {
+        "text": "Keep your piece of history. Durable, verifiable digital continuity for people.",
+        "characters": 78,
+        "maxCharacters": 101,
+        "source": "working-target",
+        "notes": "Short Page bio/intro working target; verify against the live Page editor before publishing."
+      },
+      "about": {
+        "text": "Loggie helps people keep the digital pieces of their lives together over time—messages, files, identity, and records—with cryptographic proof when it matters.",
+        "characters": 158,
+        "source": "brand-canonical"
+      },
+      "website": {
+        "text": "https://loggielabs.com/",
+        "characters": 23
+      }
+    },
+    "github": {
+      "organizationBio": {
+        "text": "Loggie helps people keep messages, files, identity, and records together over time—with proof when it matters.",
+        "characters": 110,
+        "maxCharacters": 160,
+        "source": "official-compatible",
+        "notes": "GitHub documents a 160-character bio limit for profiles; keep organization copy within the same ceiling."
+      },
+      "website": {
+        "text": "https://loggielabs.com/",
+        "characters": 23
+      }
+    },
+    "youtube": {
+      "channelDescription": {
+        "text": "Loggie is a place for the digital pieces of your life that deserve to last: messages, files, identity, and records. It is designed around continuity, ownership, and verifiability, using cryptography underneath so important history can remain independently provable over time.\n\nKeep your piece of history.",
+        "characters": 304,
+        "source": "brand-canonical",
+        "notes": "Keep the opening sentence useful on its own because YouTube surfaces only part of the description in some contexts."
+      },
+      "primaryLinkLabel": {
+        "text": "Loggie",
+        "characters": 6
+      },
+      "primaryLink": {
+        "text": "https://loggielabs.com/",
+        "characters": 23
+      }
+    },
+    "gmail": {
+      "signatureName": {
+        "text": "Loggie",
+        "characters": 6
+      },
+      "signatureTagline": {
+        "text": "Keep your piece of history.",
+        "characters": 27
+      },
+      "signatureWebsite": {
+        "text": "https://loggielabs.com/",
+        "characters": 23
+      },
+      "notes": {
+        "text": "Use alongside exports/gmail/signatureLogo-400x100.png. Do not add unsupported product, compliance, or security claims to signatures.",
+        "characters": 132
+      }
+    },
+    "web": {
+      "metaDescription": {
+        "text": "Loggie helps people keep messages, files, identity, and records together over time, with cryptographic proof when it matters.",
+        "characters": 125,
+        "maxCharacters": 160,
+        "source": "seo-working-target"
+      },
+      "footerBlurb": {
+        "text": "Keep your piece of history. Durable, verifiable digital continuity for people.",
+        "characters": 78
+      }
+    }
+  }
+}

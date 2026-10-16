@@ -1,0 +1,5 @@
+[metaDescription]
+Loggie helps people keep messages, files, identity, and records together over time, with cryptographic proof when it matters.
+
+[footerBlurb]
+Keep your piece of history. Durable, verifiable digital continuity for people.

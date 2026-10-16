@@ -1,0 +1,5 @@
+[organizationBio]
+Loggie helps people keep messages, files, identity, and records together over time—with proof when it matters.
+
+[website]
+https://loggielabs.com/

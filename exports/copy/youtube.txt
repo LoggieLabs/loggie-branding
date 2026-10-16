@@ -1,0 +1,10 @@
+[channelDescription]
+Loggie is a place for the digital pieces of your life that deserve to last: messages, files, identity, and records. It is designed around continuity, ownership, and verifiability, using cryptography underneath so important history can remain independently provable over time.
+
+Keep your piece of history.
+
+[primaryLinkLabel]
+Loggie
+
+[primaryLink]
+https://loggielabs.com/

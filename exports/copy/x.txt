@@ -1,0 +1,5 @@
+[bio]
+Keep your piece of history. Loggie keeps messages, files, identity, and records together over time—with cryptographic proof when it matters.
+
+[website]
+https://loggielabs.com/
