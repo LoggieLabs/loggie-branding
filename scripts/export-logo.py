@@ -21,7 +21,7 @@ below. If a master changes shape, change the constant beside it.
 This repo (loggie-branding) is the home of the masters; consuming sites point
 --out at their own asset directory, e.g. the pilot marketing site:
 
-  python3 scripts/export-logo.py --out ../loggie-marketing/pilot/public
+  python3 scripts/export-logo.py --out ../../sites/loggie-marketing/pilot/public
 
 History: the switch was made in one move — generate-brand-assets.py and the two
 orb-era source PNGs are retired, and the masters below are the only artwork.

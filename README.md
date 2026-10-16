@@ -84,7 +84,7 @@ python3 scripts/export-brand-pack.py
 python3 scripts/export-copy-pack.py
 
 # Marketing-site asset set -> a consumer's own directory
-python3 scripts/export-logo.py --out ../loggie-marketing/pilot/public
+python3 scripts/export-logo.py --out ../../sites/loggie-marketing/pilot/public
 ```
 
 The copy exporter validates any declared character maximum before writing the
